@@ -1,6 +1,6 @@
 Project Title: Web Portal for Human Resource Development
-Developers: Rutvik Babubhai Jadav and Divyaraj Dharmesh Makwana
-Guided by: Prof. Sohil Parmar
+Developers:Divyaraj Dharmesh Makwana
+Company name:- INFLIBNET CENTRE
 
 About the Project:
 The Web Portal for Human Resource Development is a centralized platform designed to streamline the management of HR events, including scheduling, registrations, and feedback collection. With a focus on efficiency and scalability, the portal supports participants, administrators, and coordinators through role-specific modules.
