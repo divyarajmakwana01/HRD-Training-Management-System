@@ -1,6 +1,6 @@
-Project Title: HRD Training Management System
+Project Title:- HRD Training Management System
 
-Developers:Divyaraj Dharmesh Makwana
+Developers:- Divyaraj Dharmesh Makwana
 
 Company name:- INFLIBNET CENTRE
 
