@@ -1,0 +1,9 @@
+.dropdown.bd-mode-toggle {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 13500; 
+  }
+
+
+  

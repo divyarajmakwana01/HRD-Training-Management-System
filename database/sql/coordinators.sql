@@ -1,0 +1,21 @@
+CREATE TABLE coordinators (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    login_id INT NOT NULL,
+    name VARCHAR(255) NOT NULL,
+    designation VARCHAR(255),
+    email VARCHAR(255) NOT NULL,
+    mobile VARCHAR(20),
+    contact_no VARCHAR(20),
+    division VARCHAR(255),
+    facebook VARCHAR(255),
+    linkedin VARCHAR(255),
+    twitter VARCHAR(255),
+    orcid VARCHAR(255),
+    biography TEXT,
+    active TINYINT(1) DEFAULT 1,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    createdby VARCHAR(255),
+    updatedby VARCHAR(255),
+    FOREIGN KEY (login_id) REFERENCES login(id) ON DELETE CASCADE
+);

@@ -1,0 +1,22 @@
+CREATE TABLE programme (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    year INT NOT NULL,
+    name VARCHAR(200) NOT NULL,
+    programmeBrief TEXT,
+    brochure_link VARCHAR(255),
+    programmeType ENUM('1', '2', '3','4','5')  NOT NULL COMMENT '1-Webinar, 2-User Awareness, 3-Workshop',
+    programmeVenue VARCHAR(255),
+    questionnaire TEXT,
+    startdate DATE NOT NULL,
+    enddate DATE NOT NULL,
+    startTime TIME,
+    endTime TIME,
+    fees VARCHAR(20),
+    fees_with_acc VARCHAR(20),
+    fees_exemption INT(2),
+    active TINYINT(1) DEFAULT 1,
+     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    createdby VARCHAR(255),
+    updatedby VARCHAR(255)
+);

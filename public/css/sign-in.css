@@ -1,0 +1,67 @@
+/* Overall page background */
+body {
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered login container styled as a card */
+.login-container {
+    max-width: 500px;
+    margin: 5% auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.login-logo {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 100px;
+    height: auto;
+}
+
+/* Title styling */
+.login-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Form label and input styling */
+.form-label {
+    font-weight: 500;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+/* Button styling with a blue tone typical of official sites */
+.btn-primary {
+    background-color: #005ea2;
+    border-color: #005ea2;
+}
+
+.btn-primary:hover {
+    background-color: #004e8c;
+    border-color: #004e8c;
+}
+
+/* Footer links */
+.footer-links {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: #005ea2;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
