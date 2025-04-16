@@ -1,66 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Project Title: Web Portal for Human Resource Development
+Developers: Rutvik Babubhai Jadav and Divyaraj Dharmesh Makwana
+Guided by: Prof. Sohil Parmar
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+About the Project:
+The Web Portal for Human Resource Development is a centralized platform designed to streamline the management of HR events, including scheduling, registrations, and feedback collection. With a focus on efficiency and scalability, the portal supports participants, administrators, and coordinators through role-specific modules.
 
-## About Laravel
+Objectives:
+- Automated Event Management: Simplify scheduling, registration, payment processing, and communication.
+- Role-Based Access Control: Tailored functionalities for Participants, Admins, and Coordinators.
+- Data Security & UX: Deliver a seamless user experience with robust data encryption.
+- Operational Excellence: Minimize manual errors, reduce operational overhead, and enable real-time tracking.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Key Features:
+- Participant Module:- Account creation with email verification.
+- Programme registration with integrated payment and travel details.
+- Dashboard for managing upcoming events and registrations.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Admin Module:- Programme creation, editing, and lifecycle management.
+- Coordinator assignments and participant verifications.
+- Questionnaire customization and survey analysis.
 
-## Learning Laravel
+- Coordinator Module:- Assigned event overview and participant monitoring.
+- Tools for real-time communication and event coordination.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Technologies Used:
+- Frontend: HTML, CSS, JavaScript, Bootstrap.
+- Backend: PHP Laravel Framework for secure and scalable application logic.
+- Database: MySQL for relational data management and complex querying.
+- Development Tools: Visual Studio Code, Git for version control.
+- Additional Libraries: PDF generation for receipts and encryption for secure authentication.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Expected Outcomes:
+- Enhanced User Experience: Simplified registration and feedback processes.
+- Improved Efficiency: Automated workflows to reduce manual intervention.
+- Scalability: Modular architecture for future enhancements.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
